@@ -3,15 +3,15 @@
     "atom-text-editor": [
       {
         "label": "Convert to mask",
-        "command": "subnetreplacer:tomask"
+        "command": "atom-subnetreplacer:tomask"
       },
       {
         "label": "Convert to inverse mask",
-        "command": "subnetreplacer:toinversemask"
+        "command": "atom-subnetreplacer:toinversemask"
       },
       {
           "label": "Convert to prefix",
-          "command": "subnetreplacer:toprefix"
+          "command": "atom-subnetreplacer:toprefix"
       }
     ]
   },
@@ -20,19 +20,19 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "subnetreplacer",
+          "label": "atom-subnetreplacer",
           "submenu": [
             {
               "label": "Convert to mask",
-              "command": "subnetreplacer:tomask"
+              "command": "atom-subnetreplacer:tomask"
             },
             {
               "label": "Convert to inverse mask",
-              "command": "subnetreplacer:toinversemask"
+              "command": "atom-subnetreplacer:toinversemask"
             },
             {
               "label": "Convert to prefix",
-              "command": "subnetreplacer:toprefix"
+              "command": "atom-subnetreplacer:toprefix"
             }
           ]
         }
