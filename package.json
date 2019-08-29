@@ -1,13 +1,10 @@
 {
   "name": "atom-subnetreplacer",
   "main": "./lib/atom-subnetreplacer",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Convert subnetmasks between formats",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
-    "atom-workspace": "atom-subnetreplacer:tomask",
-    "atom-workspace": "atom-subnetreplacer:toinversemask",
     "atom-workspace": "atom-subnetreplacer:toprefix"
   },
   "repository": "https://github.com/geertn444/atom-subnetreplacer",
@@ -15,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
