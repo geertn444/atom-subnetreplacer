@@ -1,0 +1,42 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Convert to mask",
+        "command": "subnetreplacer:tomask"
+      },
+      {
+        "label": "Convert to inverse mask",
+        "command": "subnetreplacer:toinversemask"
+      },
+      {
+          "label": "Convert to prefix",
+          "command": "subnetreplacer:toprefix"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "subnetreplacer",
+          "submenu": [
+            {
+              "label": "Convert to mask",
+              "command": "subnetreplacer:tomask"
+            },
+            {
+              "label": "Convert to inverse mask",
+              "command": "subnetreplacer:toinversemask"
+            },
+            {
+              "label": "Convert to prefix",
+              "command": "subnetreplacer:toprefix"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
