@@ -1,0 +1,20 @@
+{
+  "name": "subnetreplacer",
+  "main": "./lib/subnetreplacer",
+  "version": "0.0.1",
+  "description": "Mass Subnet Mask Modifications",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "subnetreplacer:tomask",
+    "atom-workspace": "subnetreplacer:toinversemask",
+    "atom-workspace": "subnetreplacer:toprefix"
+  },
+  "repository": "https://github.com/atom/subnetreplacer",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
